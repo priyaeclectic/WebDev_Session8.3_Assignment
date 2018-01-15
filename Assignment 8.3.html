@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Assignment 8.3 </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>
+</head>
+
+<body><center>
+		<h3>MySelfie Tech</h3>
+    			<br><br><br><br><br>			<!-- Define controls for the form 'title' attribute to set what to display on hover-->
+		
+		<label for="name">Name:</label><input type="text" id="name" placeholder="Name" title="Please input your name"><br>
+		<label for="name">Email:</label><input type="text" id="email" placeholder="email" title="Please input your email"><br>
+		<label for="name">Password:</label><input type="text" id="passwd" placeholder="Password" title="Please input your password"><br>
+		</center>
+</body>
+<script type="text/javascript">
+	//Function that calls tooltip method
+	$( function() {
+    $( document ).tooltip();
+  } );
+</script>	
+</html>
